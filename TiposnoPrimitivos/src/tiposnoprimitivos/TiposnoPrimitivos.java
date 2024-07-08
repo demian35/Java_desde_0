@@ -26,6 +26,10 @@ public class TiposnoPrimitivos {
         //Tipo String con instancia
         String cadena="Hola mundo";
         System.out.println("Instacia de un string: " + cadena);
+        
+        //constantes 
+        final int numero2=23;//para declarar constantes se usa la palabra reservada final
+        System.out.println("Constante en java: " + numero2);
     }
     
 }
