@@ -19,16 +19,20 @@ public class OperadoresBasicos {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        double numero1,numero2,suma,resta,mult,div,rem;
+        double numero1,numero2,suma,resta,mult,div,rem,numero3;
         Scanner entrada= new Scanner(System.in);//entrada para que el usuario digite los numeros a operar
         System.out.println("Ingrese dos numeros ");
         numero1=entrada.nextDouble();
         numero2=entrada.nextDouble();
+        numero3=entrada.nextDouble();
         suma=numero1+numero2;
         resta=numero1-numero2;
         mult=numero1*numero2;
         div=numero1/numero2;
         rem=numero1%numero2;
+        numero3+=20;
+        
+        
         
         //resultado suma
         System.out.println("La suma de " + numero1 + " y " + numero2 + " es " + suma);
@@ -45,6 +49,8 @@ public class OperadoresBasicos {
         //resultado modulo
         System.out.println("El residuo de " + numero1 + " y " + numero2 + " es " + rem);
         
+        //combinacion de operadores
+        System.out.println(numero3);
     }
     
 }
