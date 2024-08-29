@@ -21,7 +21,6 @@ public class AdivinaelNumero {
         int numero,aleatorio;
         int intentos=0;
         aleatorio=(int)(Math.random()*100);//multuplicamos por 100 el numero generado para poder generar numeros del 1 al 100
-        System.out.println(aleatorio);
         numero= Integer.parseInt(JOptionPane.showInputDialog("ingrese un numero"));//le pedimos al usuario que ingrese
         do{
            if(numero>aleatorio){
